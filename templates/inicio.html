@@ -12,48 +12,135 @@
 
   <!-- Main content -->
   <section class="content">
+    <div class="row">
+     <!-- ./col -->
+     <div class="col-lg-4 col-xs-6">
+      <!-- small box -->
+      <div class="small-box bg-yellow">
+        <div class="inner">
+          <h3>44</h3>
 
-    <!-- Default box -->
-    <div class="box">
-      <div class="box-header with-border">
-        <h3 class="box-title">Titulo </h3>
+          <p>Nuevos usuarios</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-person-add"></i>
+        </div>
+        
+      </div>
+    </div>
+       <!-- ./col -->
+       <div class="col-lg-4 col-xs-6">
+        <!-- small box -->
+        <div class="small-box bg-green">
+          <div class="inner">
+            <h3>53.000</h3>
 
-        <div class="box-tools pull-right">
-          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-            <i class="fa fa-minus"></i></button>
+            <p>Donaciones mensuales</p>
+          </div>
+          <div class="icon">
+            <i class="ion ion-stats-bars"></i>
+          </div>
+        
         </div>
       </div>
-      <div class="box-body">
-
-      </div>
-      <!-- /.box-body -->
-      <div class="box-footer">
-      </div>
-      <!-- /.box-footer-->
     </div>
-    <!-- /.box -->
+    <div class="row">
 
-    <!-- Default box -->
-    <div class="box">
-      <div class="box-header with-border">
-        <h3 class="box-title">Titulo </h3>
+      <div class="col-lg-6 col-xs-12">
+        <!-- Default box -->
+        <div class="box">
+          <div class="box-header with-border">
+            <h3 class="box-title">Ingresar nueva cita</h3>
 
-        <div class="box-tools pull-right">
-          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-            <i class="fa fa-minus"></i></button>
+            <div class="box-tools pull-right">
+              <button
+                type="button"
+                class="btn btn-box-tool"
+                data-widget="collapse"
+                data-toggle="tooltip"
+                title="Collapse"
+              >
+                <i class="fa fa-minus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="box-body">
+            <form>
+             
+                <div class="form-group">
+                    <label>Fecha de la cita:</label>
+    
+                    <div class="input-group">
+                      <div class="input-group-addon">
+                        <i class="fa fa-calendar"></i>
+                      </div>
+                      <input type="text" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask>
+                    </div>
+                    <!-- /.input group -->
+                  </div>
+
+                  <div class="form-group">
+                    <label for="NombreInfantil">rut paciente</label>
+                    <input type="number" class="form-control" id="NombreInfantil" placeholder="">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="NombreInfantil">especialidad</label>
+                    <input type="text" class="form-control" id="NombreInfantil" placeholder="">
+                  </div>
+
+
+              <button type="submit" class="btn btn-primary mb-2">
+                Confirmar
+              </button>
+            </form>
+            <div class="box-footer">
+              <!--<table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">nombre</th>
+                    <th scope="col">acciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>especialidad 1</td>
+                    <td>
+                      <a href="#"><i class="fa fa-edit"></i></a>
+                      <a href="#"><i class="fa fa-times"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>especialidad 2</td>
+                    <td>
+                      <a href="#"><i class="fa fa-edit"></i></a>
+                      <a href="#"><i class="fa fa-times"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>especialidad 3</td>
+                    <td>
+                      <a href="#"><i class="fa fa-edit"></i></a>
+                      <a href="#"><i class="fa fa-times"></i></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>-->
+            </div>
+
+            <!-- /.box-body -->
+
+            <!-- /.box-footer-->
+          </div>
+          <!-- /.box -->
         </div>
       </div>
-      <div class="box-body">
 
-      </div>
-      <!-- /.box-body -->
-      <div class="box-footer">
-      </div>
-      <!-- /.box-footer-->
     </div>
-    <!-- /.box -->
-
-
   </section>
   <!-- /.content -->
 
