@@ -26,7 +26,5 @@ urlpatterns = [
     path('infantil',infantil),
     path('apoderados',apoderados),
     path('programas',programas),
-    path('calendario',calendario),
-    path('citas',citas),
-     path('donaciones',donaciones),
+     path('calendario',calendario),
 ]

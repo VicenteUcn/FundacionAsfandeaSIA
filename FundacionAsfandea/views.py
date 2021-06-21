@@ -15,10 +15,3 @@ def calendario(request):
 
 def programas(request):
     return render(request, 'programas.html')
-
-def citas(request):
-    return render(request, 'citas.html')
-
-def donaciones(request):
-    return render(request, 'donaciones.html')
-

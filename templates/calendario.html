@@ -1,42 +1,62 @@
 {% extends 'index.html' %}
-{% load static %}
 
 {% block content %}
-
-<!-- jQuery 3 -->
-<script src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
 
 <div class="content-wrapper">
 
   <section class="content-header">
     <h1>
-      calendario
+      Inicio
     </h1>
   </section>
 
- <!-- Main content -->
- <section class="content">
-  <div class="row">
-    
-    <div class="col-md-12">
-      <div class="box box-primary">
-        <div class="box-body no-padding">
-          <!-- THE CALENDAR -->
-          <div id="calendar"></div>
+  <!-- Main content -->
+  <section class="content">
+
+    <!-- Default box -->
+    <div class="box">
+      <div class="box-header with-border">
+        <h3 class="box-title">Titulo </h3>
+
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+            <i class="fa fa-minus"></i></button>
         </div>
-        <!-- /.box-body -->
       </div>
-      <!-- /. box -->
+      <div class="box-body">
+
+      </div>
+      <!-- /.box-body -->
+      <div class="box-footer">
+      </div>
+      <!-- /.box-footer-->
     </div>
-    <!-- /.col -->
-  </div>
-  <!-- /.row -->
-</section>
-<!-- /.content -->
+    <!-- /.box -->
 
-  
+    <!-- Default box -->
+    <div class="box">
+      <div class="box-header with-border">
+        <h3 class="box-title">Titulo </h3>
 
- 
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+            <i class="fa fa-minus"></i></button>
+        </div>
+      </div>
+      <div class="box-body">
+
+      </div>
+      <!-- /.box-body -->
+      <div class="box-footer">
+      </div>
+      <!-- /.box-footer-->
+    </div>
+    <!-- /.box -->
+
+
+  </section>
+  <!-- /.content -->
+
+
 </div>
-
   {% endblock %}
